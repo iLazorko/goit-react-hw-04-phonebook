@@ -1,9 +1,3 @@
-import React, { Component } from 'react';
-import { ContactsForm } from './contactsForm/ContactsForm';
-import { Filter } from './filter/Filter';
-import { ContactList } from './contactList/ContactList';
-import { Wrapper, Title, Heading } from './App.styled';
-
 export class App extends Component {
   state = {
     contacts: [],
